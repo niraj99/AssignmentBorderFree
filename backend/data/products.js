@@ -1,0 +1,177 @@
+const products = [
+    {
+      name: 'Men printed T-shirt',
+      image: '/images/product1.jpg',
+      brand: 'Roadster',
+      category: 'Clothing',
+      price: 499,
+      countInStock: 10,
+      rating: 4.5,
+      numReviews: 99,
+    },
+    {
+      name: 'Men printed casual shirt',
+      image: '/images/product2.webp',
+      brand: 'Wrogn',
+      category: 'Clothing',
+      price: 799,
+      countInStock: 6,
+      rating: 4,
+      numReviews: 60,
+    },
+    {
+      name: 'Men faded look denim shirt',
+      image: '/images/product3.webp',
+      brand: 'Wrogn',
+      category: 'Clothing',
+      price: 1299,
+      countInStock: 6,
+      rating: 3.5,
+      numReviews: 59,
+    },
+    {
+      name: 'Men logo printed T-shirt',
+      image: '/images/product4.webp',
+      brand: 'Wrogn',
+      category: 'Clothing',
+      price: 999,
+      countInStock: 6,
+      rating: 5,
+      numReviews: 59,
+    },
+    {
+      name: 'Men Black Trouser',
+      image: '/images/product5.webp',
+      brand: 'Levis',
+      category: 'Clothing',
+      price: 1299,
+      countInStock: 6,
+      rating: 3.5,
+      numReviews: 79,
+    },
+    {
+      name: 'Distressed Jeans',
+      image: '/images/product6.webp',
+      brand: 'Highlander',
+      category: 'Clothing',
+      price: 1599,
+      countInStock: 8,
+      rating: 4.5,
+      numReviews: 33,
+    
+    },
+    {
+      name: 'Men Slim fit blue jeans',
+      image: '/images/product7.webp',
+      brand: 'Wrogn',
+      category: 'Clothing',
+      price: 1799,
+      countInStock: 6,
+      rating: 3.5,
+      numReviews: 79,
+
+    },
+    {
+      name: 'Men Slim fit washed jeans',
+      image: '/images/product8.webp',
+      brand: 'Roadstar',
+      category: 'Clothing',
+      price: 799,
+      countInStock: 6,
+      rating: 3.5,
+      numReviews: 79,
+  
+    },
+    {
+      name: 'Men Analog Watch',
+      image: '/images/product9.webp',
+      brand: 'Fossil',
+      category: 'Accessories',
+      price: 12999,
+      countInStock: 6,
+      rating: 5,
+      numReviews: 79,
+  
+    },
+    {
+      name: 'Men Analog Watch',
+      image: '/images/product10.webp',
+      brand: 'Armani Exchange',
+      category: 'Accessories',
+      price: 13999,
+      countInStock: 7,
+      rating: 5,
+      numReviews: 89,
+    
+    },
+    {
+      name: 'Men Analog hybrid Watch',
+      image: '/images/product11.webp',
+      brand: 'Fossil',
+      category: 'Accessories',
+      price: 9999,
+      countInStock: 7,
+      rating: 5,
+      numReviews: 89,
+   
+    },
+    {
+      name: 'Men Analog and Digital Watch',
+      image: '/images/product12.webp',
+      brand: 'Roadstar',
+      category: 'Accessories',
+      price: 1399,
+      countInStock: 7,
+      rating: 4.5,
+      numReviews: 89,
+
+    },
+    {
+      name: 'Men Sneakers ',
+      image: '/images/product13.webp',
+      brand: 'Puma',
+      category: 'Footwear',
+      price: 1599,
+      countInStock: 8,
+      rating: 4.5,
+      numReviews: 50,
+
+    },
+    {
+      name: 'Men running shoes ',
+      image: '/images/product14.webp',
+      brand: 'Adidas',
+      category: 'Footwear',
+      price: 1399,
+      countInStock: 7,
+      rating: 4.5,
+      numReviews: 50,
+
+    },
+    {
+      name: 'Men white running shoes',
+      image: '/images/product15.webp',
+      brand: 'Nike',
+      category: 'Footwear',
+      price: 1799,
+      countInStock: 7,
+      rating: 5,
+      numReviews: 94,
+
+    },
+    {
+      name: 'Men white casual shoes',
+      image: '/images/product16.webp',
+      brand: 'USPA',
+      category: 'Footwear',
+      price: 1999,
+      countInStock: 7,
+      rating: 5,
+      numReviews: 40,
+
+    }
+
+    
+  ]
+  
+module.exports = products;
