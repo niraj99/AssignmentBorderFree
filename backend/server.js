@@ -43,9 +43,10 @@ app.get("/api/products", asyncHandler( async(req,res) => {
     const product = await Product.find({})
     res.json(product);
 }))
-app.use("/api/products/:id", updateClick);
 
-app.get("/api/products/:id", asyncHandler(async(req,res) =>{
+// app.use("/api/products/:id", updateClick);
+
+app.get("/api/products/:id",updateClick, asyncHandler(async(req,res) =>{
 
     const product = req.product
 
